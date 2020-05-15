@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.0.0
+### Added
+- Created jdbc folder containing DB Connection and DML queries.
+- Added more transformations to SparkFunctions.java
+
 ## Version 0.1.2
 ### Changed
 - Hello.java to MovieWebSer.java

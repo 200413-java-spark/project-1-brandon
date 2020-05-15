@@ -28,7 +28,22 @@ public class MovieFromCSV implements Serializable {
         this.revenue = Double.parseDouble(s[5]);
     }
 
+    public String getName() {
+        return this.name;
+    }
     public String getDirector() {
         return this.director;
+    }
+    public String getCompany() {
+        return this.company;
+    }
+    public String getGenre() {
+        return this.genre;
+    }
+    public int getYear() {
+        return this.year;
+    }
+    public double getRevenue() {
+        return this.revenue;
     }
 }
